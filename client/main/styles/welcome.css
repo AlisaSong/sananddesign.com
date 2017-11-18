@@ -1,0 +1,27 @@
+.descriptionText {
+    color: #252525;
+    margin: 0 auto;
+}
+
+.titleText {
+    color: #252525;
+    font-size: 42px;
+    margin: 0 auto;
+}
+
+.welcomeImage {
+    height:100%;
+}
+
+.welcomeImageWrapper {
+    float: left;
+    height: 100%;
+    width: 60%;
+}
+
+.welcomeTextWrapper {
+    float: right;
+    height: 100%;
+    text-align: center;
+    width: 40%;
+}
