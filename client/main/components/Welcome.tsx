@@ -1,5 +1,6 @@
 import { connect } from 'react-redux';
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 
 import '../styles/index.css';
 import '../styles/welcome.css';
@@ -23,6 +24,7 @@ class Welcome extends React.Component<WelcomeProps> {
                         <h1 className="titleText">San & Design</h1>
                         <h2 className="descriptionText">floral studio</h2>
                         <h3 className="descriptionText">established 2017</h3>
+                        <Link to="/Home">enter here</Link>
                     </div>
                 </div>
             </section>
