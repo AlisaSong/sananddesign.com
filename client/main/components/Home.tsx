@@ -1,5 +1,6 @@
 import { connect } from 'react-redux';
 import * as React from 'react';
+import Header from './Header';
 
 interface HomeProps {
 }
@@ -9,6 +10,7 @@ class Home extends React.Component<HomeProps> {
         return (
             <section>
                 HOME
+            <Header />
             </section>
         );
     }

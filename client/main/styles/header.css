@@ -1,0 +1,20 @@
+body {
+    color: #000;
+}
+
+.tab {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
+
+.tabs {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
