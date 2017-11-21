@@ -46,7 +46,7 @@ class Header extends React.Component<HeaderProps, any> {
                 <div className="headerWrapper">
                     <ul className="tabs">
                         {this.state.tabs.map((tab, index) =>
-                            <li className="tab hvrGrow"
+                            <li className="tab"
                                 key={index}>
                                 <Link to={tab.link}>{tab.displayText}</Link>
                             </li>

@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import '../styles/index.css';
 import '../styles/welcome.css';
 
-const sampleWelcomeImage = require('../images/samplewelcomeimage.png');
-const sampleLogoImage = require('../images/samplelogoimage.png')
+const welcomeImage = require('../images/welcome-image.png');
+const logoBlack = require('../images/logo-black.png')
 
 interface WelcomeProps {
 }
@@ -15,15 +15,15 @@ class Welcome extends React.Component<WelcomeProps> {
     render() {
         return (
             <section>
-                <div className="welcomeImageWrapper">
-                    <img className="welcomeImage" src={sampleWelcomeImage} />
+                <div className="welcome-image-wrapper">
+                    <img className="welcome-image" src={welcomeImage} />
                 </div>
-                <div className="welcomeTextWrapper">
+                <div className="welcome-text-wrapper">
                     <div className="center">
-                        <img className="sampleLogo" src={sampleLogoImage} />
-                        <h1 className="titleText">San & Design</h1>
-                        <h2 className="descriptionText">floral studio</h2>
-                        <h3 className="descriptionText">established 2017</h3>
+                        <img className="logo-black" src={logoBlack} />
+                        <h1 className="title-text">San & Design</h1>
+                        <h2 className="description-text">floral studio</h2>
+                        <h3 className="description-text">established 2017</h3>
                         <Link to="/Home">enter here</Link>
                     </div>
                 </div>

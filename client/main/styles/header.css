@@ -1,14 +1,19 @@
+a {
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 body {
     color: #000;
+    font-family: Garamond, sans-serif;
 }
 
 .tab {
     display: inline-block;
+    font-weight: bold;
     margin: 0 20px;
-}
-
-.tab:hover {
-    cursor: pointer;
 }
 
 .tabs {

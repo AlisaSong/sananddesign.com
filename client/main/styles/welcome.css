@@ -1,25 +1,29 @@
-.descriptionText {
+.description-text {
     color: #252525;
     margin: 0 auto;
 }
 
-.titleText {
+.logo-black {
+    height: 30%;
+}
+
+.title-text {
     color: #252525;
     font-size: 42px;
     margin: 0 auto;
 }
 
-.welcomeImage {
+.welcome-image {
     height:100%;
 }
 
-.welcomeImageWrapper {
+.welcome-image-wrapper {
     float: left;
     height: 100%;
     width: 60%;
 }
 
-.welcomeTextWrapper {
+.welcome-text-wrapper {
     float: right;
     height: 100%;
     text-align: center;
