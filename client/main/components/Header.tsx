@@ -16,26 +16,26 @@ class Header extends React.Component<HeaderProps, any> {
             isDropdownMenuVisible: false,
             sites: [{
                 icon: 'instagram',
-                link: 'https://github.com/AlisaSong'
+                link: 'https://www.instagram.com/san_and_design'
             }, {
                 icon: 'linkedin',
                 link: 'https://www.linkedin.com/in/alisa-song-5545b14b/'
             }],
             tabs: [{
                 displayText: 'ABOUT',
-                link: '',
+                link: './About',
             }, {
                 displayText: 'GALLERY',
-                link: '',
+                link: './Gallery',
             }, {
                 displayText: 'APPROACH',
-                link: '',
+                link: './Approach',
             }, {
                 displayText: 'SERVICES',
-                link: '',
+                link: './Services',
             }, {
                 displayText: 'CONTACT',
-                link: '',
+                link: './Contact',
             }]
         };
     }

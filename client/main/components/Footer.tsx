@@ -21,7 +21,8 @@ class Footer extends React.Component<FooterProps, any> {
             <section>
                 Footer
             </section>
-    }
+        )
+    };
 }
 
 export default connect((state: any) => { return {}; })(Footer);
