@@ -24,7 +24,7 @@ class Welcome extends React.Component<WelcomeProps> {
                         <h1 className="title-text">San & Design</h1>
                         <h2 className="description-text">floral studio</h2>
                         <h3 className="description-text">established 2017</h3>
-                        <Link to="/Home">enter here</Link>
+                        <Link to="/home">enter here</Link>
                     </div>
                 </div>
             </section>

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import Header from './Header';
 
 import '../styles/index.css';
 import '../styles/gallery.css';
@@ -8,20 +8,15 @@ import '../styles/gallery.css';
 interface GalleryProps {
 }
 
-class Gallery extends React.Component<GalleryProps, any> {
-    constructor(props: GalleryProps) {
-        super(props);
+class Gallery extends React.Component<GalleryProps> {
 
-        this.state = {
-        }
-
-    }
     render() {
         return (
             <section>
                 Gallery
+            <Header />
             </section>
-        )
+        );
     }
 }
 

@@ -23,19 +23,19 @@ class Header extends React.Component<HeaderProps, any> {
             }],
             tabs: [{
                 displayText: 'ABOUT',
-                link: './About',
+                link: '/about',
             }, {
                 displayText: 'GALLERY',
-                link: './Gallery',
+                link: '/gallery',
             }, {
                 displayText: 'APPROACH',
-                link: './Approach',
+                link: '/approach',
             }, {
                 displayText: 'SERVICES',
-                link: './Services',
+                link: '/services',
             }, {
                 displayText: 'CONTACT',
-                link: './Contact',
+                link: '/contact',
             }]
         };
     }
