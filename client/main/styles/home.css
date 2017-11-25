@@ -10,6 +10,10 @@
     text-align: center;
 }
 
+.small-image {
+    width: 33%;
+}
+
 .text-overlay {
     position: absolute;
     top: 40%;
@@ -17,7 +21,9 @@
     transform: translate(-50%, -50%);
 }
 
-.logo-transparent {
-    width: 40%;
+.trio-images-wrapper {
+    margin: 0 auto;
+    width: 80%;
 }
+
 

@@ -38,9 +38,21 @@ section {
 }
 
 .section-wrapper {
-    top: 100px;
-    left: 0;
-    right: 0;
     bottom: 0;
+    left: 0;
+    overflow: auto;
     position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+.text-shadow {
+    text-shadow: 2px 0 0 rgba(84,84,84,0.2),
+        -2px 0 0 rgba(84,84,84,0.2),
+        0 2px 0 rgba(84,84,84,0.2),
+        0 -2px 0 rgba(84,84,84,0.2),
+        1px 1px rgba(84,84,84,0.2),
+        -1px -1px 0 rgba(84,84,84,0.2),
+        1px -1px 0 rgba(84,84,84,0.2),
+        -1px 1px 0 rgba(84,84,84,0.2);
 }

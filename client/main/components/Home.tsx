@@ -6,6 +6,9 @@ import '../styles/index.css';
 import '../styles/home.css';
 
 const bannerImage = require('../images/home-banner-image.png');
+const imageSmall1 = require('../images/home-image-1.png');
+const imageSmall2 = require('../images/home-image-2.png');
+const imageSmall3 = require('../images/home-image-3.png');
 const logoTransparent = require('../images/logo-transparent.png');
 
 
@@ -20,7 +23,12 @@ class Home extends React.Component<HomeProps> {
                 <section className="section-wrapper">
                     <div className="banner-wrapper">
                         <img className="banner-image" src={bannerImage} />
-                        <div className="text-overlay">San & Design</div>
+                        <div className="text-overlay text-shadow">San & Design</div>
+                    </div>
+                    <div className="trio-images-wrapper">
+                        <img className="small-image" src={imageSmall1} />
+                        <img className="small-image" src={imageSmall2} />
+                        <img className="small-image" src={imageSmall3} />
                     </div>
                 </section>
             </section>
