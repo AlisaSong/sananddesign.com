@@ -22,6 +22,9 @@ class Header extends React.Component<HeaderProps, any> {
                 link: 'https://www.linkedin.com/in/alisa-song-5545b14b/'
             }],
             tabs: [{
+                displayText: 'HOME',
+                link: '/home',
+            },{
                 displayText: 'ABOUT',
                 link: '/about',
             }, {
@@ -52,7 +55,7 @@ class Header extends React.Component<HeaderProps, any> {
                             </li>
                         )}
                         {this.state.sites.map((site, index) =>
-                            <li className="tab hvrGrow"
+                            <li className="tab"
                                 key={index}
                                 onClick={() => { window.open(site.link, '_blank') }}>
                             </li>
