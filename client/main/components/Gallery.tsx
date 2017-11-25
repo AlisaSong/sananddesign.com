@@ -13,10 +13,11 @@ class Gallery extends React.Component<GalleryProps> {
     render() {
         return (
             <section>
-                Gallery
-            <Header />
+                <Header />
+                <section className="section-wrapper">
+                </section>
             </section>
-        );
+        )
     }
 }
 

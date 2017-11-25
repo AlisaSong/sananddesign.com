@@ -1,6 +1,7 @@
 import { connect } from 'react-redux';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
+import Header from './Header';
 
 import '../styles/index.css';
 import '../styles/contact.css';
@@ -19,7 +20,9 @@ class Contact extends React.Component<ContactProps, any> {
     render() {
         return (
             <section>
-                Contact
+                <Header />
+                <section className="section-wrapper">
+                </section>
             </section>
     )}
 }

@@ -43,7 +43,7 @@ class Header extends React.Component<HeaderProps, any> {
     render() {
         return (
             <section>
-                <div className="headerWrapper">
+                <div className="header-wrapper">
                     <ul className="tabs">
                         {this.state.tabs.map((tab, index) =>
                             <li className="tab"

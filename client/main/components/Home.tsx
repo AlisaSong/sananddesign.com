@@ -16,12 +16,13 @@ class Home extends React.Component<HomeProps> {
     render() {
         return (
             <section>
-                HOME
-            <Header />
-            <div className="banner-wrapper">
-                    <img className="banner-image" src={bannerImage} />
-                    <div className="text-overlay">San & Design</div>
-            </div>
+                <Header />
+                <section className="section-wrapper">
+                    <div className="banner-wrapper">
+                        <img className="banner-image" src={bannerImage} />
+                        <div className="text-overlay">San & Design</div>
+                    </div>
+                </section>
             </section>
         );
     }
