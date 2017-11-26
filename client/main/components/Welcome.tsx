@@ -2,7 +2,6 @@ import { connect } from 'react-redux';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../styles/index.css';
 import '../styles/welcome.css';
 
 const welcomeImage = require('../images/welcome-image.png');

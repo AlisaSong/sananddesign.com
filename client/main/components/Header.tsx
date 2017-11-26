@@ -2,7 +2,6 @@ import { connect } from 'react-redux';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../styles/index.css';
 import '../styles/header.css';
 
 interface HeaderProps {
@@ -14,13 +13,6 @@ class Header extends React.Component<HeaderProps, any> {
 
         this.state = {
             isDropdownMenuVisible: false,
-            sites: [{
-                icon: 'instagram',
-                link: 'https://www.instagram.com/san_and_design'
-            }, {
-                icon: 'linkedin',
-                link: 'https://www.linkedin.com/in/alisa-song-5545b14b/'
-            }],
             tabs: [{
                 displayText: 'HOME',
                 link: '/home',
@@ -45,7 +37,7 @@ class Header extends React.Component<HeaderProps, any> {
 
     render() {
         return (
-            <section>
+            <header>
                 <div className="header-wrapper">
                     <ul className="tabs">
                         {this.state.tabs.map((tab, index) =>
@@ -54,15 +46,9 @@ class Header extends React.Component<HeaderProps, any> {
                                 <Link to={tab.link}>{tab.displayText}</Link>
                             </li>
                         )}
-                        {this.state.sites.map((site, index) =>
-                            <li className="tab"
-                                key={index}
-                                onClick={() => { window.open(site.link, '_blank') }}>
-                            </li>
-                        )}
                     </ul>
                 </div>
-            </section>
+            </header>
         );
     }
 }

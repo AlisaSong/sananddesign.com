@@ -1,8 +1,8 @@
 import { connect } from 'react-redux';
 import * as React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 
-import '../styles/index.css';
 import '../styles/home.css';
 
 const bannerImage = require('../images/home-banner-image.png');
@@ -30,6 +30,7 @@ class Home extends React.Component<HomeProps> {
                         <img className="small-image" src={imageSmall2} />
                         <img className="small-image" src={imageSmall3} />
                     </div>
+                    <Footer />
                 </section>
             </section>
         );

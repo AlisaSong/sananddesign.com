@@ -2,7 +2,6 @@ import { connect } from 'react-redux';
 import * as React from 'react';
 import Header from './Header';
 
-import '../styles/index.css';
 import '../styles/gallery.css';
 
 interface GalleryProps {

@@ -1,0 +1,22 @@
+footer {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.footer-text {
+    margin: 0;
+    padding: 0;
+}
+
+.social {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social .icon {
+    display: inline;
+    margin: 0;
+    padding: 0 3px;
+}
+
