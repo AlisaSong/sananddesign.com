@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
+import Footer from './Footer';
 
 import '../styles/services.css';
 
@@ -22,9 +23,11 @@ class Services extends React.Component<ServicesProps, any> {
             <section>
                 <Header />
                 <section className="section-wrapper">
+                    <Footer />
                 </section>
             </section>
-    )}
+        )
+    }
 }
 
 export default connect((state: any) => { return {}; })(Services);

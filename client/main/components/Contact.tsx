@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
+import Footer from './Footer';
 
 import '../styles/contact.css';
 
@@ -21,6 +22,7 @@ class Contact extends React.Component<ContactProps, any> {
             <section>
                 <Header />
                 <section className="section-wrapper">
+                    <Footer />
                 </section>
             </section>
     )}

@@ -4,7 +4,8 @@ footer {
 }
 
 .footer-text {
-    margin: 0;
+    font-size: 20px;
+    margin: 5px 0;
     padding: 0;
 }
 

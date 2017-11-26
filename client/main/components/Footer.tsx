@@ -25,18 +25,17 @@ class Footer extends React.Component<FooterProps, any> {
     render() {
         return (
             <footer>
-                
                 <ul className="social">
                     {this.state.social.map((social, index) =>
                         <li className="icon"
                             key={index}
                             onClick={() => { window.open(social.link, '_blank') }}>
-                            <i className={"fa fa-" + social.icon}></i>
+                            <i className={"fa fa-" + social.icon + "  fa-2x"}></i>
                         </li>
                     )}
                 </ul>
                 <p className="footer-text">&copy;2017 SAN & DESIGN</p>
-                <p className="footer-text">Website created by Alisa Song</p>
+                <p className="footer-text">Website created by <a href="http://www.alisasong.com">Alisa Song</a></p>
             </footer>
         )
     };
