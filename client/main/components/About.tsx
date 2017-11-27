@@ -27,7 +27,7 @@ class About extends React.Component<AboutProps> {
                             <img className="about-image-small" src={about3Image} />
                             <img className="about-image-small" src={about4Image} />
                         </p>
-                        <h1>About San & Design</h1>
+                        <h1 className="about-title">About San & Design</h1>
                         <p>
                             Lorem ipsum dolor sit amet, odio eros, ante sed vehicula vivamus ipsum, suspendisse class quisque ante ut, maecenas nulla.
                         Justo tellus. Tempor interdum per, lacus tempor phasellus tortor risus. Viverra pede commodo fermentum vestibulum.
@@ -72,8 +72,8 @@ class About extends React.Component<AboutProps> {
                     </p>
 
                         <img src={workingImage} />
-                        <h1>Jane Kang</h1>
-                        <h2>Owner, Head Designer</h2>
+                        <h1 className="about-title">Jane Kang</h1>
+                        <h2 className="about-title-description">Owner, Head Designer</h2>
                         <p>
                             Ultricies morbi consectetuer, ullamcorper rutrum urna a vestibulum neque parturient, ante diam mollis id sociis
                         maecenas pellentesque, vestibulum vel platea aliquam orci. Ante porta dolor sed. Amet nulla. Nulla eget vel est
