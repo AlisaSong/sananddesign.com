@@ -24,7 +24,7 @@ class Approach extends React.Component<ApproachProps, any> {
                 <section className="section-wrapper">
                     <Footer />
                 </section>
-            </section>
+            </section >
         )
     }
 }

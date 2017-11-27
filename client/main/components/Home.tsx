@@ -21,16 +21,16 @@ class Home extends React.Component<HomeProps> {
             <section>
                 <Header />
                 <section className="section-wrapper">
-                    <div className="banner-wrapper">
-                        <img className="banner-image" src={bannerImage} />
-                        <div className="text-overlay text-shadow">San & Design</div>
-                    </div>
-                    <div className="trio-images-wrapper">
-                        <img className="small-image" src={imageSmall1} />
-                        <img className="small-image" src={imageSmall2} />
-                        <img className="small-image" src={imageSmall3} />
-                    </div>
-                    <Footer />
+                        <div className="banner-wrapper">
+                            <img className="banner-image" src={bannerImage} />
+                            <div className="text-overlay text-shadow">San & Design</div>
+                        </div>
+                        <div className="trio-images-wrapper">
+                            <img className="small-image" src={imageSmall1} />
+                            <img className="small-image" src={imageSmall2} />
+                            <img className="small-image" src={imageSmall3} />
+                        </div>
+                        <Footer />
                 </section>
             </section>
         );

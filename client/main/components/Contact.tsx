@@ -22,10 +22,11 @@ class Contact extends React.Component<ContactProps, any> {
             <section>
                 <Header />
                 <section className="section-wrapper">
-                    <Footer />
+                        <Footer />
                 </section>
             </section>
-    )}
+        )
+    }
 }
 
-    export default connect((state: any) => { return {}; })(Contact);
+export default connect((state: any) => { return {}; })(Contact);

@@ -1,0 +1,6 @@
+.text-wrapper {
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+}
