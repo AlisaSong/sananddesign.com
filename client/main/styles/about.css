@@ -1,3 +1,11 @@
+.about-image-small {
+    width: 20%;
+}
+
+.about-image-small-wrapper {
+    text-align: center;
+}
+
 .text-wrapper {
     display: block;
     overflow: hidden;
