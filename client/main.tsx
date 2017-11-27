@@ -17,6 +17,11 @@ import Approach from './main/components/Approach';
 import Services from './main/components/Services';
 import Contact from './main/components/Contact';
 
+import Gallery1 from './main/components/Galleries/Gallery1';
+import Gallery2 from './main/components/Galleries/Gallery2';
+import Gallery3 from './main/components/Galleries/Gallery3';
+
+
 const store: Store<any> = createStore(reducer, {});
 
 ReactDOM.render(
@@ -30,6 +35,9 @@ ReactDOM.render(
                 <Route component={Approach} path={'/approach'} />
                 <Route component={Contact} path={'/contact'} />
                 <Route component={Services} path={'/services'} />
+                <Route component={Gallery1} path={'/galleries/gallery1'} />
+                <Route component={Gallery2} path={'/galleries/gallery2'} />
+                <Route component={Gallery3} path={'/galleries/gallery3'} />
             </main>
         </Router>
     </Provider>,

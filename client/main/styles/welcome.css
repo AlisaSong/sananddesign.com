@@ -29,3 +29,12 @@
     text-align: center;
     width: 40%;
 }
+
+.welcome-wrapper {
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

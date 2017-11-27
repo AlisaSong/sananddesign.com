@@ -1,4 +1,4 @@
-import { connect } from 'react-redux';
+    import { connect } from 'react-redux';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -13,7 +13,7 @@ interface WelcomeProps {
 class Welcome extends React.Component<WelcomeProps> {
     render() {
         return (
-            <section>
+            <section className="welcome-wrapper">
                 <div className="welcome-image-wrapper">
                     <img className="welcome-image" src={welcomeImage} />
                 </div>
