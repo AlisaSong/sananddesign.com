@@ -50,7 +50,6 @@ class Gallery extends React.Component<GalleryProps, any> {
                 <Header />
                 <section className="section-wrapper">
                     <section className="gallery-wrapper">
-                        <h1>Gallery</h1>
                         <ul className="galleries">
                             {this.state.galleries.map((gallery, index) =>
                                 <li className="gallery"
