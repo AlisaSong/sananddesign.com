@@ -28,32 +28,32 @@ class About extends React.Component<AboutProps> {
                             <img className="about-image-small" src={about4Image} />
                         </p>
                         <h1 className="about-title">About San & Design</h1>
-                        <p>
+                        <p className="about-text-description">
                             Lorem ipsum dolor sit amet, odio eros, ante sed vehicula vivamus ipsum, suspendisse class quisque ante ut, maecenas nulla.
                         Justo tellus. Tempor interdum per, lacus tempor phasellus tortor risus. Viverra pede commodo fermentum vestibulum.
                         </p>
-                        <p>
+                        <p className="about-text-description">
                             Quis ultricies a ut lobortis,elit ad consequat morbi neque eu semper.
-                        Purus in, etiam at aenean est, nulla interdum nulla nullam nec.
-                    </p>
-                        <p>
+                            Purus in, etiam at aenean est, nulla interdum nulla nullam nec.
+                        </p>
+                        <p className="about-text-description">
                             Tempus consectetuer interdum lorem malesuada,
-                        metus ut veritatis, gravida ante. Condimentum platea blandit quisque ut, sed nec sit, dui ac class diam rutrum massa feugiat.
-                        Venenatis natoque convallis, quam amet vestibulum, consequat quam vulputate inceptos justo ac quam.
-                    </p>
-                        <p>
+                            metus ut veritatis, gravida ante. Condimentum platea blandit quisque ut, sed nec sit, dui ac class diam rutrum massa feugiat.
+                            Venenatis natoque convallis, quam amet vestibulum, consequat quam vulputate inceptos justo ac quam.
+                        </p>
+                        <p className="about-text-description">
                             Ultricies morbi consectetuer, ullamcorper rutrum urna a vestibulum neque parturient, ante diam mollis id sociis
                         maecenas pellentesque, vestibulum vel platea aliquam orci. Ante porta dolor sed. Amet nulla. Nulla eget vel est
                         venenatis vel, wisi et nonummy, ante ipsum ante cras lectus hendrerit condimentum, eu tellus sit, vel dui. Eu
                         pellentesque nulla dui nec, rutrum suspendisse dui in, id potenti eleifend eleifend sed nec dui. Porta pharetra nec
                         malesuada, neque cursus nonummy litora tristique, aliquam maecenas, tincidunt convallis eleifend dis, ultricies ut nam.
                     </p>
-                        <p>
+                        <p className="about-text-description">
                             Viverra lacus id. Molestie fringilla sed sodales urna feugiat orci, placerat vivamus lacus tincidunt mi justo, sit diam
                         eu pede mauris. Quis nec aliquam. Sed purus curabitur amet sodales neque, a cursus ornare turpis, risus praesent dis
                         vehicula integer, faucibus neque, in euismod.
                     </p>
-                        <p>
+                        <p className="about-text-description">
                             Hac ultricies ac semper. Vitae vehicula est luctus bibendum sed, vivamus elementum,
                         volutpat venenatis, ante sapien arcu fermentum euismod. Sollicitudin senectus quis, posuere mollis
                         ligula habitant, sem luctus dolor augue donec, etiam eget, mauris luctus amet velit turpis. Wisi ipsum vel
@@ -62,22 +62,22 @@ class About extends React.Component<AboutProps> {
                         ornare nam nulla nonummy aliquam at quisque.
                     </p>
 
-                        <img src={workingImage} />
+                        <img className="about-person-image" src={workingImage} />
                         <h1 className="about-title">Jane Kang</h1>
                         <h2 className="about-title-description">Owner, Head Designer</h2>
-                        <p>
+                        <p className="about-text-description">
                             Ultricies morbi consectetuer, ullamcorper rutrum urna a vestibulum neque parturient, ante diam mollis id sociis
                         maecenas pellentesque, vestibulum vel platea aliquam orci. Ante porta dolor sed. Amet nulla. Nulla eget vel est
                         venenatis vel, wisi et nonummy, ante ipsum ante cras lectus hendrerit condimentum, eu tellus sit, vel dui. Eu
                         pellentesque nulla dui nec, rutrum suspendisse dui in, id potenti eleifend eleifend sed nec dui. Porta pharetra nec
                         malesuada, neque cursus nonummy litora tristique, aliquam maecenas, tincidunt convallis eleifend dis, ultricies ut nam.
                         </p>
-                        <p>
+                        <p className="about-text-description">
                             Viverra lacus id. Molestie fringilla sed sodales urna feugiat orci, placerat vivamus lacus tincidunt mi justo, sit diam
                         eu pede mauris. Quis nec aliquam. Sed purus curabitur amet sodales neque, a cursus ornare turpis, risus praesent dis
                         vehicula integer, faucibus neque, in euismod.
                         </p>
-                        <p>
+                        <p className="about-text-description">
                             Hac ultricies ac semper. Vitae vehicula est luctus bibendum sed, vivamus elementum,
                         volutpat venenatis, ante sapien arcu fermentum euismod. Sollicitudin senectus quis, posuere mollis
                         ligula habitant, sem luctus dolor augue donec, etiam eget, mauris luctus amet velit turpis. Wisi ipsum vel

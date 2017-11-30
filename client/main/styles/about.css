@@ -1,21 +1,30 @@
 .about-image-small {
-    width: 20%;
+    width: 25%;
 }
 
 .about-image-small-wrapper {
     text-align: center;
 }
 
+.about-person-image {
+    width: 100%;
+}
+
+.about-text-description {
+    margin: 0 5%;
+}
+
 .about-title {
     font-size: 26px;
-    margin: 10px 0 0 0;
+    margin: 10px 5% 0 5%;
     padding: 0;
+    width: 80%;
 }
 
 .about-title-description {
     font-size: 18px;
     font-style: italic;
-    margin: 0;
+    margin: 0 5%;
     padding: 0;
 }
 
@@ -23,5 +32,5 @@
     display: block;
     overflow: hidden;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
 }
