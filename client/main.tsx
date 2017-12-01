@@ -13,7 +13,6 @@ import Home from './main/components/Home';
 import Welcome from './main/components/Welcome';
 import About from './main/components/About';
 import Gallery from './main/components/Gallery';
-import Approach from './main/components/Approach';
 import Services from './main/components/Services';
 import Contact from './main/components/Contact';
 
@@ -32,7 +31,6 @@ ReactDOM.render(
                 <Route exact={true} component={Welcome} path={'/'} />
                 <Route component={About} path={'/about'} />
                 <Route component={Gallery} path={'/gallery'} />
-                <Route component={Approach} path={'/approach'} />
                 <Route component={Contact} path={'/contact'} />
                 <Route component={Services} path={'/services'} />
                 <Route component={Gallery1} path={'/galleries/gallery1'} />
