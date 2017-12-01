@@ -55,7 +55,7 @@ class Gallery extends React.Component<GalleryProps, any> {
                                 <li className="gallery"
                                     key={index}>
                                     <Link to={gallery.link}>
-                                        <img src={gallery.image} />
+                                        <img className="gallery-image" src={gallery.image} />
                                         <p className="gallery-title">{gallery.displayText}</p>
                                     </Link>
                                 </li>
