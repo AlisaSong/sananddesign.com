@@ -42,7 +42,7 @@ ReactDOM.render(
                 <Route component={Gallery2} path={'/galleries/gallery2'} />
                 <Route component={Gallery3} path={'/galleries/gallery3'} />
                 <Route component={Corporate} path={'/services/corporate'} />
-                <Route component={RealEstate} path={'/services/realestate'} />
+                <Route component={RealEstate} path={'/services/real-estate'} />
                 <Route component={Weddings} path={'/services/weddings'} />
             </main>
         </Router>

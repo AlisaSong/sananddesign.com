@@ -13,20 +13,10 @@ class Header extends React.Component<HeaderProps, any> {
 
         this.state = {
             isDropdownMenuVisible: false,
-            servicesMenu: [{
-                displayText: 'weddings',
-                link: 'weddings',
-            }, {
-                displayText: 'real estate',
-                link: 'real-estate',
-                }, {
-                    displayText: 'corporate',
-                    link: 'corporate',
-            }],
             tabs: [{
                 displayText: 'HOME',
                 link: '/home',
-            },{
+            }, {
                 displayText: 'ABOUT',
                 link: '/about',
             }, {
@@ -34,6 +24,16 @@ class Header extends React.Component<HeaderProps, any> {
                 link: '/gallery',
             }, {
                 displayText: 'SERVICES',
+                dropdownMenu: [{
+                    displayText: 'weddings',
+                    link: '/services/weddings',
+                }, {
+                    displayText: 'real estate',
+                    link: '/services/real-estate',
+                }, {
+                    displayText: 'corporate',
+                    link: '/services/corporate',
+                }],
                 link: '/services',
             }, {
                 displayText: 'CONTACT',
@@ -51,6 +51,11 @@ class Header extends React.Component<HeaderProps, any> {
                             <li className="tab"
                                 key={index}>
                                 <Link to={tab.link}>{tab.displayText}</Link>
+                                {tab.dropdownMenu && <div className="dropdown-menu">
+                                    {tab.dropdownMenu.map((option, i) =>
+                                        <Link key={i} to={option.link}>{option.displayText}</Link>
+                                    )}
+                                </div>}
                             </li>
                         )}
                     </ul>
