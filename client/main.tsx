@@ -37,13 +37,13 @@ ReactDOM.render(
                 <Route component={About} path={'/about'} />
                 <Route component={Gallery} path={'/gallery'} />
                 <Route component={Contact} path={'/contact'} />
-                <Route component={Services} path={'/services'} />
-                <Route component={Gallery1} path={'/galleries/gallery1'} />
-                <Route component={Gallery2} path={'/galleries/gallery2'} />
-                <Route component={Gallery3} path={'/galleries/gallery3'} />
-                <Route component={Corporate} path={'/services/corporate'} />
-                <Route component={RealEstate} path={'/services/real-estate'} />
-                <Route component={Weddings} path={'/services/weddings'} />
+                <Route exact={true} component={Services} path={'/services'} />
+                <Route exact={true} component={Gallery1} path={'/galleries/gallery1'} />
+                <Route exact={true} component={Gallery2} path={'/galleries/gallery2'} />
+                <Route exact={true} component={Gallery3} path={'/galleries/gallery3'} />
+                <Route exact={true} component={Corporate} path={'/services/corporate'} />
+                <Route exact={true} component={RealEstate} path={'/services/real-estate'} />
+                <Route exact={true} component={Weddings} path={'/services/weddings'} />
             </main>
         </Router>
     </Provider>,
