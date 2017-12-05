@@ -20,6 +20,11 @@ import Gallery1 from './main/components/Galleries/Gallery1';
 import Gallery2 from './main/components/Galleries/Gallery2';
 import Gallery3 from './main/components/Galleries/Gallery3';
 
+import Corporate from './main/components/Services/Corporate';
+import RealEstate from './main/components/Services/RealEstate';
+import Weddings from './main/components/Services/Weddings';
+
+
 
 const store: Store<any> = createStore(reducer, {});
 
@@ -36,6 +41,9 @@ ReactDOM.render(
                 <Route component={Gallery1} path={'/galleries/gallery1'} />
                 <Route component={Gallery2} path={'/galleries/gallery2'} />
                 <Route component={Gallery3} path={'/galleries/gallery3'} />
+                <Route component={Corporate} path={'/corporate'} />
+                <Route component={RealEstate} path={'/realestate'} />
+                <Route component={Weddings} path={'/weddings'} />
             </main>
         </Router>
     </Provider>,

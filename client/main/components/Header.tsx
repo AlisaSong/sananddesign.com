@@ -13,6 +13,16 @@ class Header extends React.Component<HeaderProps, any> {
 
         this.state = {
             isDropdownMenuVisible: false,
+            servicesMenu: [{
+                displayText: 'weddings',
+                link: 'weddings',
+            }, {
+                displayText: 'real estate',
+                link: 'real-estate',
+                }, {
+                    displayText: 'corporate',
+                    link: 'corporate',
+            }],
             tabs: [{
                 displayText: 'HOME',
                 link: '/home',
