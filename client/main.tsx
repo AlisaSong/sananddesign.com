@@ -41,9 +41,9 @@ ReactDOM.render(
                 <Route component={Gallery1} path={'/galleries/gallery1'} />
                 <Route component={Gallery2} path={'/galleries/gallery2'} />
                 <Route component={Gallery3} path={'/galleries/gallery3'} />
-                <Route component={Corporate} path={'/corporate'} />
-                <Route component={RealEstate} path={'/realestate'} />
-                <Route component={Weddings} path={'/weddings'} />
+                <Route component={Corporate} path={'/services/corporate'} />
+                <Route component={RealEstate} path={'/services/realestate'} />
+                <Route component={Weddings} path={'/services/weddings'} />
             </main>
         </Router>
     </Provider>,
