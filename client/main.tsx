@@ -35,7 +35,7 @@ ReactDOM.render(
                 <Route component={Home} path={'/home'} />
                 <Route exact={true} component={Welcome} path={'/'} />
                 <Route component={About} path={'/about'} />
-                <Route component={Gallery} path={'/gallery'} />
+                <Route exact={true} component={Gallery} path={'/gallery'} />
                 <Route component={Contact} path={'/contact'} />
                 <Route exact={true} component={Services} path={'/services'} />
                 <Route exact={true} component={Gallery1} path={'/galleries/gallery1'} />
