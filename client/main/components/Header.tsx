@@ -34,7 +34,7 @@ class Header extends React.Component<HeaderProps, any> {
                     displayText: 'corporate',
                     link: '/services/corporate',
                 }],
-                link: '/services',
+                link: '/services/weddings',
             }, {
                 displayText: 'CONTACT',
                 link: '/contact',
