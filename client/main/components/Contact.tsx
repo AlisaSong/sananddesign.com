@@ -22,7 +22,14 @@ class Contact extends React.Component<ContactProps, any> {
             <section>
                 <Header />
                 <section className="section-wrapper">
-                        <Footer />
+                    <form action="https://formspree.io/alisasong@gmail.com"
+                        method="POST">
+                        <p>Name: </p><input type="text" name="name" />
+                        <p>Email: </p><input type="email" name="_replyto" />
+                        <p>Message:</p><textarea name="message" />
+                        <input type="submit" value="Send" />
+                    </form>
+                    <Footer />
                 </section>
             </section>
         )
