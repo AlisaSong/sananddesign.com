@@ -48,8 +48,7 @@ class Gallery extends React.Component<GalleryProps, any> {
         return (
             <section>
                 <Header />
-                <section className="section-wrapper">
-                    <section className="gallery-wrapper">
+                    <div className="gallery-wrapper">
                         <ul className="galleries">
                             {this.state.galleries.map((gallery, index) =>
                                 <li className="gallery"
@@ -62,8 +61,7 @@ class Gallery extends React.Component<GalleryProps, any> {
                             )}
                         </ul>
                         <Footer />
-                    </section>
-                </section>
+                </div>
             </section>
         )
     }

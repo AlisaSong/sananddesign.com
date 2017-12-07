@@ -21,7 +21,6 @@ class Contact extends React.Component<ContactProps, any> {
         return (
             <section>
                 <Header />
-                <section className="section-wrapper">
                     <form action="https://formspree.io/alisasong@gmail.com"
                         method="POST">
                         <p>Name: </p><input type="text" name="name" />
@@ -30,7 +29,6 @@ class Contact extends React.Component<ContactProps, any> {
                         <input type="submit" value="Send" />
                     </form>
                     <Footer />
-                </section>
             </section>
         )
     }

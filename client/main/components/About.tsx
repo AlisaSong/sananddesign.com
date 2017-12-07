@@ -19,8 +19,7 @@ class About extends React.Component<AboutProps> {
         return (
             <section>
                 <Header />
-                <section className="section-wrapper">
-                    <section className="text-wrapper">
+                    <div className="text-wrapper">
                         <p className="about-image-small-wrapper">
                             <img className="about-image-small" src={about1Image} />
                             <img className="about-image-small" src={about2Image} />
@@ -48,20 +47,6 @@ class About extends React.Component<AboutProps> {
                         pellentesque nulla dui nec, rutrum suspendisse dui in, id potenti eleifend eleifend sed nec dui. Porta pharetra nec
                         malesuada, neque cursus nonummy litora tristique, aliquam maecenas, tincidunt convallis eleifend dis, ultricies ut nam.
                     </p>
-                        <p className="about-text-description">
-                            Viverra lacus id. Molestie fringilla sed sodales urna feugiat orci, placerat vivamus lacus tincidunt mi justo, sit diam
-                        eu pede mauris. Quis nec aliquam. Sed purus curabitur amet sodales neque, a cursus ornare turpis, risus praesent dis
-                        vehicula integer, faucibus neque, in euismod.
-                    </p>
-                        <p className="about-text-description">
-                            Hac ultricies ac semper. Vitae vehicula est luctus bibendum sed, vivamus elementum,
-                        volutpat venenatis, ante sapien arcu fermentum euismod. Sollicitudin senectus quis, posuere mollis
-                        ligula habitant, sem luctus dolor augue donec, etiam eget, mauris luctus amet velit turpis. Wisi ipsum vel
-                        condimentum, neque in tellus massa elementum lorem, phasellus vestibulum ante sed in aliquam. Mauris posuere in,
-                        pede accumsan, phasellus tincidunt, dis justo purus, sit suspendisse et eget. Iaculis cursus, posuere condimentum eu,
-                        ornare nam nulla nonummy aliquam at quisque.
-                    </p>
-
                         <img className="about-person-image" src={workingImage} />
                         <h1 className="about-title">Jane Kang</h1>
                         <h2 className="about-title-description">Owner, Head Designer</h2>
@@ -72,22 +57,8 @@ class About extends React.Component<AboutProps> {
                         pellentesque nulla dui nec, rutrum suspendisse dui in, id potenti eleifend eleifend sed nec dui. Porta pharetra nec
                         malesuada, neque cursus nonummy litora tristique, aliquam maecenas, tincidunt convallis eleifend dis, ultricies ut nam.
                         </p>
-                        <p className="about-text-description">
-                            Viverra lacus id. Molestie fringilla sed sodales urna feugiat orci, placerat vivamus lacus tincidunt mi justo, sit diam
-                        eu pede mauris. Quis nec aliquam. Sed purus curabitur amet sodales neque, a cursus ornare turpis, risus praesent dis
-                        vehicula integer, faucibus neque, in euismod.
-                        </p>
-                        <p className="about-text-description">
-                            Hac ultricies ac semper. Vitae vehicula est luctus bibendum sed, vivamus elementum,
-                        volutpat venenatis, ante sapien arcu fermentum euismod. Sollicitudin senectus quis, posuere mollis
-                        ligula habitant, sem luctus dolor augue donec, etiam eget, mauris luctus amet velit turpis. Wisi ipsum vel
-                        condimentum, neque in tellus massa elementum lorem, phasellus vestibulum ante sed in aliquam. Mauris posuere in,
-                        pede accumsan, phasellus tincidunt, dis justo purus, sit suspendisse et eget. Iaculis cursus, posuere condimentum eu,
-                        ornare nam nulla nonummy aliquam at quisque.
-                    </p>
-                    </section>
                     <Footer />
-                </section>
+                </div>
             </section>
         )
     }

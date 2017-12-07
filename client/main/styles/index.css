@@ -2,6 +2,19 @@ body {
     margin: 0;
 }
 
+main,
+section {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+section {
+    padding-top: 100px;
+}
+
 .center {
     align-items: center;
     display: flex;
@@ -26,15 +39,6 @@ body {
 .hvrGrow:focus,
 .hvrGrow:active {
     transform: scale(1.1);
-}
-
-.section-wrapper {
-    bottom: 0;
-    left: 0;
-    overflow: auto;
-    position: absolute;
-    right: 0;
-    top: 100px;
 }
 
 .text-shadow {

@@ -45,21 +45,19 @@ class Header extends React.Component<HeaderProps, any> {
     render() {
         return (
             <header>
-                <div className="header-wrapper">
-                    <ul className="tabs">
-                        {this.state.tabs.map((tab, index) =>
-                            <li className="tab"
-                                key={index}>
-                                <Link to={tab.link}>{tab.displayText}</Link>
-                                {tab.dropdownMenu && <div className="dropdown-menu">
-                                    {tab.dropdownMenu.map((option, i) =>
-                                        <Link key={i} to={option.link}>{option.displayText}</Link>
-                                    )}
-                                </div>}
-                            </li>
-                        )}
-                    </ul>
-                </div>
+                <ul className="tabs">
+                    {this.state.tabs.map((tab, index) =>
+                        <li className="tab"
+                            key={index}>
+                            <Link to={tab.link}>{tab.displayText}</Link>
+                            {tab.dropdownMenu && <div className="dropdown-menu">
+                                {tab.dropdownMenu.map((option, i) =>
+                                    <Link key={i} to={option.link}>{option.displayText}</Link>
+                                )}
+                            </div>}
+                        </li>
+                    )}
+                </ul>
             </header>
         );
     }

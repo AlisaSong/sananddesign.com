@@ -23,11 +23,7 @@ class RealEstate extends React.Component<RealEstateProps, any> {
         return (
             <section>
                 <Header />
-                <section className="section-wrapper">
-                    <section className="services-wrapper">
-                        <h1 className="services-title services-text">Real Estate Staging</h1>
-                        <h2 className="services-quote services-text">Id non, eveniet ut magna nec, nonummy vivamus nonummy dolor facilisis, aenean eros sed,
-                        quis sed modi luctus.</h2>
+                    <div className="services-wrapper">
                         <img className="services-image" src={realEstateImage} />
                         <h2 className="services-subtitle services-text">Real Estate Staging</h2>
                         <p className="services-text">
@@ -44,8 +40,7 @@ class RealEstate extends React.Component<RealEstateProps, any> {
                             <li className="services-menu-item">maecenas pellentesque - vestibulum</li>
                         </ul>
                         <Footer />
-                    </section>
-                </section>
+                    </div>
             </section>
         )
     }

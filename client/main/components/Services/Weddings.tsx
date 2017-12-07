@@ -23,12 +23,11 @@ class Weddings extends React.Component<WeddingsProps, any> {
         return (
             <section>
                 <Header />
-                <section className="section-wrapper">
-                    <section className="services-wrapper">
-                            <h1 className="services-title services-text">Weddings & Occasions</h1>
-                            <h2 className="services-quote services-text">Id non, eveniet ut magna nec, nonummy vivamus nonummy dolor facilisis, aenean eros sed,
+                    <div className="services-wrapper">
+                    <img className="services-image" src={weddingImage} />
+                    <h1 className="services-title services-text">Weddings & Occasions</h1>
+                    <h2 className="services-quote services-text">Id non, eveniet ut magna nec, nonummy vivamus nonummy dolor facilisis, aenean eros sed,
                         quis sed modi luctus.</h2>
-                            <img className="services-image" src={weddingImage} />
                             <h2 className="services-subtitle services-text">Menu</h2>
                             <ul className="services-menu services-text">
                                 <li className="services-menu-item">Ultricies morbi - consectetuer</li>
@@ -38,8 +37,7 @@ class Weddings extends React.Component<WeddingsProps, any> {
                                 <li className="services-menu-item">maecenas pellentesque - vestibulum</li>
                             </ul>
                             <Footer />
-                        </section>
-                    </section>
+                        </div>
                 </section>
         )
     }
