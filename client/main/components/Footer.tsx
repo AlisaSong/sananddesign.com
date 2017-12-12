@@ -25,6 +25,7 @@ class Footer extends React.Component<FooterProps, any> {
     render() {
         return (
             <footer>
+                <div className="footer-divider" />
                 <ul className="social">
                     {this.state.social.map((social, index) =>
                         <li className="icon"
