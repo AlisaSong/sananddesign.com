@@ -19,6 +19,7 @@ header {
     top: 0;
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 .dropdown-menu {
@@ -36,6 +37,16 @@ header {
     height: 50px;
     line-height: 50px;
     padding-left: 3%;
+}
+
+.header-logo {
+    height: 100px;
+    left: 10px;
+    position: absolute;
+}
+
+.header-logo img {
+    height: 100px;
 }
 
 .header-wrapper {

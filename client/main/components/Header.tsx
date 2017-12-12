@@ -45,6 +45,9 @@ class Header extends React.Component<HeaderProps, any> {
     render() {
         return (
             <header>
+                <div className="header-logo">
+                    <img src="https://lh4.googleusercontent.com/_X8Er6IgUyikz3876Ix5OBex6rEc-vb1dxKY9oBxtZOVHQqkL8_lNInJmWO7z2pBWFBFKOYUBDNWCJnBoA_a=w1920-h887" />
+                </div>
                 <ul className="tabs">
                     {this.state.tabs.map((tab, index) =>
                         <li className="tab"
