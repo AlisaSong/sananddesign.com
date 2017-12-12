@@ -51,3 +51,12 @@ section {
         1px -1px 0 rgba(84,84,84,0.2),
         -1px 1px 0 rgba(84,84,84,0.2);
 }
+
+@media only screen and (max-width: 750px) {
+
+    section {
+        padding-top: 200px;
+    }
+}
+
+

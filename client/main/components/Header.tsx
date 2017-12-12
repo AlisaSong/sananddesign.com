@@ -42,6 +42,10 @@ class Header extends React.Component<HeaderProps, any> {
         };
     }
 
+    menuClicked() {
+        alert("Clicked!");
+    }
+
     render() {
         return (
             <header>
@@ -61,6 +65,7 @@ class Header extends React.Component<HeaderProps, any> {
                         </li>
                     )}
                 </ul>
+                <div className="collapsed-menu" onClick={() => { this.menuClicked() }}>MENU+</div>
             </header>
         );
     }
