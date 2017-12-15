@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 import '../styles/header.css';
 
+const logoTransparent = require('../images/logo-transparent.png');
+
 interface HeaderProps {
 }
 
@@ -13,15 +15,16 @@ class Header extends React.Component<HeaderProps, any> {
 
         this.state = {
             isDropdownMenuVisible: false,
+            isMenuExpanded: false,
             tabs: [{
                 displayText: 'HOME',
-                link: '/home',
+                link: '/home'
             }, {
                 displayText: 'ABOUT',
-                link: '/about',
+                link: '/about'
             }, {
                 displayText: 'GALLERY',
-                link: '/gallery',
+                link: '/gallery'
             }, {
                 displayText: 'SERVICES',
                 dropdownMenu: [{
@@ -34,23 +37,38 @@ class Header extends React.Component<HeaderProps, any> {
                     displayText: 'corporate',
                     link: '/services/corporate',
                 }],
-                link: '/services/weddings',
+                isExpanded: false,
+                link: '/services/weddings'
             }, {
                 displayText: 'CONTACT',
-                link: '/contact',
+                link: '/contact'
             }]
         };
     }
 
-    menuClicked() {
-        alert("Clicked!");
+    getToggle(isExpanded: boolean): string {
+        return isExpanded ? ' -' : '+';
+    }
+
+    onClickMenu(): void {
+        this.setState({
+            isMenuExpanded: !this.state.isMenuExpanded
+        });
+    }
+
+    onClickTab(index: number): void {
+        let tabs = this.state.tabs;
+        tabs[index].isExpanded = !tabs[index].isExpanded;
+        this.setState({
+            tabs: tabs
+        });
     }
 
     render() {
         return (
             <header>
                 <div className="header-logo">
-                    <img src="https://lh5.googleusercontent.com/BzAUBBr4ry-SPDM8rK2E4qlekykK3JYWo_0OPvyRm7uJK6Y30aPhv8D4GThxjJNdZUiFwnzrjXcyq3nHMmiK=w1920-h887" />
+                    <img className="logo-transparent" src={logoTransparent} />
                 </div>
                 <ul className="tabs">
                     {this.state.tabs.map((tab, index) =>
@@ -65,7 +83,27 @@ class Header extends React.Component<HeaderProps, any> {
                         </li>
                     )}
                 </ul>
-                <div className="collapsed-menu" onClick={() => { this.menuClicked }}>MENU+</div>
+                <div className="menu" onClick={() => { this.onClickMenu() }}>
+                    <span>MENU</span>
+                    <span>{this.getToggle(this.state.isMenuExpanded)}</span>
+                </div>
+                {this.state.isMenuExpanded && <ul className="tabs-small">
+                    {this.state.tabs.map((tab, index) =>
+                        <li className="tab-small"
+                            key={index}>
+                            {tab.dropdownMenu && <div>
+                                <div onClick={() => { this.onClickTab(index) }}>
+                                    <span>{tab.displayText}</span>
+                                    <span>{this.getToggle(tab.isExpanded)}</span>
+                                </div>
+                                {tab.isExpanded && tab.dropdownMenu.map((option, i) =>
+                                    <Link key={i} to={option.link}>{option.displayText}</Link>
+                                )}
+                            </div>}
+                            {!tab.dropdownMenu && <Link to={tab.link}>{tab.displayText}</Link>}
+                        </li>
+                    )}
+                </ul>}
             </header>
         );
     }

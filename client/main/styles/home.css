@@ -1,5 +1,6 @@
 .banner-image {
     display: block;
+    height: 100%;
     margin: 0 auto;
     width: 100%;
 }
@@ -13,7 +14,8 @@
 }
 
 .small-image {
-    width: 33.3%;
+    display: inline-block;
+    width: 25%;
 }
 
 .text-overlay {
@@ -24,8 +26,13 @@
 }
 
 .trio-images-wrapper {
+    font-size: 0;
     margin: 0 auto;
     width: 100%;
 }
 
-
+@media only screen and (max-width: 750px) {
+    .small-image {
+        width: 50%;
+    }
+}

@@ -17,7 +17,7 @@ header {
     left: 0;
     line-height: 100px;
     top: 0;
-    position: fixed;
+    position: sticky;
     width: 100%;
     z-index: 2;
 }
@@ -58,6 +58,10 @@ header {
     line-height: 100px;
 }
 
+.menu {
+    display: none;
+}
+
 .tab {
     display: inline-block;
     font-weight: bold;
@@ -73,28 +77,27 @@ header {
     color: lightgray;
 }
 
-.tabs {
-    display: inline-block;
+.tabs,
+.tabs-small {
     margin: 0;
     padding: 0;
     text-align: center;
     width: 100%;
 }
 
+.tabs {
+    display: inline-block;
+}
+
+.tabs-small {
+    display: none;
+}
 
 @media only screen and (max-width: 750px) {
     header {
-        height: 200px;
-        line-height: 200px;
-        position: absolute;
-    }
-
-    .collapsed-menu {
-        cursor: pointer;
-        display: block;
-        height: 100px;
-        line-height: 100px;
-        text-align: center;
+        height: auto;
+        line-height: normal;
+        position: static;
     }
 
     .header-logo {
@@ -102,7 +105,19 @@ header {
         text-align: center;
     }
 
+    .menu {
+        cursor: pointer;
+        display: block;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+    }
+
     .tabs {
         display: none;
+    }
+
+    .tabs-small {
+        display: block;
     }
 }
