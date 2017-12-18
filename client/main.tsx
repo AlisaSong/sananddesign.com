@@ -18,6 +18,8 @@ import Contact from './main/components/Contact';
 import Gallery1 from './main/components/Galleries/Gallery1';
 import Gallery2 from './main/components/Galleries/Gallery2';
 import Gallery3 from './main/components/Galleries/Gallery3';
+import Gallery4 from './main/components/Galleries/Gallery4';
+import Gallery5 from './main/components/Galleries/Gallery5';
 
 import Corporate from './main/components/Services/Corporate';
 import RealEstate from './main/components/Services/RealEstate';
@@ -39,6 +41,8 @@ ReactDOM.render(
                 <Route exact={true} component={Gallery1} path={'/galleries/gallery1'} />
                 <Route exact={true} component={Gallery2} path={'/galleries/gallery2'} />
                 <Route exact={true} component={Gallery3} path={'/galleries/gallery3'} />
+                <Route exact={true} component={Gallery4} path={'/galleries/gallery4'} />
+                <Route exact={true} component={Gallery5} path={'/galleries/gallery5'} />
                 <Route exact={true} component={Corporate} path={'/services/corporate'} />
                 <Route exact={true} component={RealEstate} path={'/services/real-estate'} />
                 <Route exact={true} component={Weddings} path={'/services/weddings'} />

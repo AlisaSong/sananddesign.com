@@ -1,0 +1,63 @@
+.galleries-banner-image-1 {
+    display: inline-block;
+    margin: 0 auto;
+    width: 98%;
+    padding: 1%;
+}
+
+.galleries-banner-image-2 {
+    display: inline-block;
+    margin: 0 auto;
+    width: 49%;
+    padding: .5%;
+}
+
+.galleries-column {
+    float: left;
+    width: 49%;
+    padding: .5%;
+}
+
+.galleries-column img {
+    margin-top: 12px;
+    width: 100%;
+}
+
+.galleries-description {
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    width: 80%;
+}
+
+/* Clear floats after the columns */
+.galleries-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.galleries-subtitle {
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    font-style: italic;
+    width: 80%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 995px) {
+    .galleries-column {
+        padding: 1%;
+        width: 48%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .galleries-column {
+        padding: 1%;
+        width: 98%;
+    }
+}

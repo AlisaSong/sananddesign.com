@@ -20,27 +20,6 @@ class Gallery extends React.Component<GalleryProps, any> {
         super(props);
 
         this.state = {
-            galleries: [{
-                displayText: 'Gallery 1',
-                image: galleryImage1,
-                link: '/gallery/gallery1'
-            }, {
-                displayText: 'Gallery 2',
-                image: galleryImage2,
-                link: '/gallery/gallery2'
-            }, {
-                displayText: 'Gallery 3',
-                image: galleryImage3,
-                link: '/gallery/gallery3'
-            }, {
-                displayText: 'Gallery 4',
-                image: galleryImage4,
-                link: '/gallery/gallery4'
-            }, {
-                displayText: 'Gallery 5',
-                image: galleryImage5,
-                link: '/gallery/gallery5'
-            }]
         };
     }
 
@@ -51,15 +30,15 @@ class Gallery extends React.Component<GalleryProps, any> {
                 <div className="gallery-wrapper">
                     <div className="row">
                         <div className="column">
-                            <img className="gallery-image" src={galleryImage1} />
-                            <img className="gallery-image" src={galleryImage5} />
+                            <Link to="./galleries/gallery1"><img className="gallery-image" src={galleryImage1} /></Link>
+                            <Link to="./galleries/gallery5"><img className="gallery-image" src={galleryImage5} /></Link>
                         </div>
                         <div className="column">
-                            <img className="gallery-image" src={galleryImage2} />
-                            <img className="gallery-image" src={galleryImage4} />
+                            <Link to="./galleries/gallery2"><img className="gallery-image" src={galleryImage2} /></Link>
+                            <Link to="./galleries/gallery4"><img className="gallery-image" src={galleryImage4} /></Link>
                         </div>
                         <div className="column">
-                            <img className="gallery-image" src={galleryImage3} />
+                            <Link to="./galleries/gallery3"><img className="gallery-image" src={galleryImage3} /></Link>
                         </div>
                     </div>
                 </div>
