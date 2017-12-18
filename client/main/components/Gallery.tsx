@@ -48,20 +48,22 @@ class Gallery extends React.Component<GalleryProps, any> {
         return (
             <section>
                 <Header />
-                    <div className="gallery-wrapper">
-                        <ul className="galleries">
-                            {this.state.galleries.map((gallery, index) =>
-                                <li className="gallery"
-                                    key={index}>
-                                    <Link to={gallery.link}>
-                                        <img className="gallery-image" src={gallery.image} />
-                                        <p className="gallery-title">{gallery.displayText}</p>
-                                    </Link>
-                                </li>
-                            )}
-                        </ul>
-                        <Footer />
+                <div className="gallery-wrapper">
+                    <div className="row">
+                        <div className="column">
+                            <img className="gallery-image" src={galleryImage1} />
+                            <img className="gallery-image" src={galleryImage5} />
+                        </div>
+                        <div className="column">
+                            <img className="gallery-image" src={galleryImage2} />
+                            <img className="gallery-image" src={galleryImage4} />
+                        </div>
+                        <div className="column">
+                            <img className="gallery-image" src={galleryImage3} />
+                        </div>
+                    </div>
                 </div>
+                <Footer />
             </section>
         )
     }
