@@ -23,19 +23,35 @@ class Header extends React.Component<HeaderProps, any> {
                 displayText: 'ABOUT',
                 link: '/about'
             }, {
-                displayText: 'GALLERY',
+                    displayText: 'GALLERY',
+                    dropdownMenu: [{
+                        displayText: 'gallery 1',
+                        link: '/galleries/gallery1'
+                    }, {
+                        displayText: 'gallery 2',
+                        link: '/galleries/gallery2'
+                        }, {
+                            displayText: 'gallery 3',
+                            link: '/galleries/gallery3'
+                    }, {
+                        displayText: 'gallery 4',
+                        link: '/galleries/gallery4'
+                        }, {
+                            displayText: 'gallery 5',
+                            link: '/galleries/gallery5'
+                    }],
                 link: '/gallery'
             }, {
                 displayText: 'SERVICES',
                 dropdownMenu: [{
                     displayText: 'weddings',
-                    link: '/services/weddings',
+                    link: '/services/weddings'
                 }, {
                     displayText: 'real estate',
-                    link: '/services/real-estate',
+                    link: '/services/real-estate'
                 }, {
                     displayText: 'corporate',
-                    link: '/services/corporate',
+                    link: '/services/corporate'
                 }],
                 isExpanded: false,
                 link: '/services/weddings'
