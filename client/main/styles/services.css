@@ -4,18 +4,6 @@
     width: 100%;
 }
 
-.services-image-corporate {
-    background-image: url("../images/services-corporate-image.png");
-}
-
-.services-image-real-estate {
-    background-image: url("../images/services-real-estate-image.png");
-}
-
-.services-image-wedding {
-    background-image: url(../images/services-wedding-image.png);
-}
-
 .services-menu-item {
     list-style-position: inside;
 }
@@ -28,7 +16,7 @@
 .services-text {
     margin: 0 auto;
     padding: 0;
-    text-align: center;
+    text-align: left;
     width: 80%;
 }
 
