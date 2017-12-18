@@ -5,7 +5,6 @@ import Footer from './Footer';
 
 import '../styles/about.css';
 
-const workingImage = require('../images/about-office-shot.png');
 const about1Image = require('../images/about-image-1.png');
 const about2Image = require('../images/about-image-2.png');
 const about3Image = require('../images/about-image-3.png');
@@ -47,7 +46,6 @@ class About extends React.Component<AboutProps> {
                         pellentesque nulla dui nec, rutrum suspendisse dui in, id potenti eleifend eleifend sed nec dui. Porta pharetra nec
                         malesuada, neque cursus nonummy litora tristique, aliquam maecenas, tincidunt convallis eleifend dis, ultricies ut nam.
                     </p>
-                        <img className="about-person-image" src={workingImage} />
                         <h1 className="about-title">Jane Kang</h1>
                         <h2 className="about-title-description">Owner, Head Designer</h2>
                         <p className="about-text-description">
