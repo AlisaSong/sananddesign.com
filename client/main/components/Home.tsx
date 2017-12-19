@@ -31,7 +31,6 @@ class Home extends React.Component<HomeProps> {
                     <img className="small-image" src={imageSmall2} />
                     <img className="small-image" src={imageSmall4} />
                     <img className="small-image" src={imageSmall3} />
-
                 </div>
                 <Footer />
             </section>
