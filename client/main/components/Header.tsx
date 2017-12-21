@@ -100,7 +100,7 @@ class Header extends React.Component<HeaderProps, any> {
                     )}
                 </ul>
                 <div className="menu" onClick={() => { this.onClickMenu() }}>
-                    <span>MENU</span>
+                    <span className="menu-title">MENU</span>
                     <span>{this.getToggle(this.state.isMenuExpanded)}</span>
                 </div>
                 {this.state.isMenuExpanded && <ul className="tabs-small">
@@ -108,12 +108,12 @@ class Header extends React.Component<HeaderProps, any> {
                         <li className="tab-small"
                             key={index}>
                             {tab.dropdownMenu && <div>
-                                <div onClick={() => { this.onClickTab(index) }}>
+                                <div className="dropdown-menu-options" onClick={() => { this.onClickTab(index) }}>
                                     <span>{tab.displayText}</span>
                                     <span>{this.getToggle(tab.isExpanded)}</span>
                                 </div>
                                 {tab.isExpanded && tab.dropdownMenu.map((option, i) =>
-                                    <Link key={i} to={option.link}>{option.displayText}</Link>
+                                    <Link className="tabs-small-expanded" key={i} to={option.link}>{option.displayText}</Link>
                                 )}
                             </div>}
                             {!tab.dropdownMenu && <Link to={tab.link}>{tab.displayText}</Link>}

@@ -36,6 +36,11 @@ header {
     z-index: 1;
 }
 
+.dropdown-menu-options {
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .dropdown-menu a {
     display: block;
     height: 50px;
@@ -60,6 +65,11 @@ header {
 
 .menu {
     display: none;
+}
+
+.menu-title {
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .tab {
@@ -93,6 +103,17 @@ header {
     display: none;
 }
 
+.dropdown-menu-options:hover,
+.tab-small a:hover
+{
+    color: gold;
+}
+
+.tabs-small-expanded {
+    display: block;
+    font-weight: normal;
+}
+
 @media only screen and (max-width: 750px) {
     header {
         height: auto;
@@ -108,8 +129,8 @@ header {
     .menu {
         cursor: pointer;
         display: block;
-        height: 100px;
-        line-height: 100px;
+        height: 50px;
+        line-height: 50px;
         text-align: center;
     }
 
