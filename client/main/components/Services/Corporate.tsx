@@ -25,7 +25,7 @@ class Corporate extends React.Component<CorporateProps, any> {
                 <Header />
                     <div className="services-wrapper">
                         <img className="services-image" src={corporateImage} />
-                        <h2 className="services-subtitle services-text">Corporate Floral Services</h2>
+                        <h2 className="services-title services-text">Corporate Floral Services</h2>
                         <p className="services-text">
                             Ultricies morbi consectetuer, ullamcorper rutrum urna a vestibulum neque parturient, ante diam mollis id sociis
                         maecenas pellentesque, vestibulum vel platea aliquam orci. Ante porta dolor sed.

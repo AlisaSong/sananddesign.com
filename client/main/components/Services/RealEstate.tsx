@@ -25,7 +25,7 @@ class RealEstate extends React.Component<RealEstateProps, any> {
                 <Header />
                     <div className="services-wrapper">
                         <img className="services-image" src={realEstateImage} />
-                        <h2 className="services-subtitle services-text">Real Estate Staging</h2>
+                        <h2 className="services-title services-text">Real Estate Staging</h2>
                         <p className="services-text">
                             Viverra lacus id. Molestie fringilla sed sodales urna feugiat orci, placerat vivamus lacus tincidunt mi justo, sit diam
                         eu pede mauris. Quis nec aliquam. Sed purus curabitur amet sodales neque, a cursus ornare turpis, risus praesent dis
