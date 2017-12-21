@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Header';
 import Footer from '../Footer';
+import ScrollUp from '../ScrollUp';
 
 const realEstateImage = require('../../images/services-real-estate-image.png');
 
@@ -41,6 +42,7 @@ class RealEstate extends React.Component<RealEstateProps, any> {
                         </ul>
                         <Footer />
                     </div>
+                    <ScrollUp />
             </section>
         )
     }

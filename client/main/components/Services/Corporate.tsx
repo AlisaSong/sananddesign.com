@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Header';
 import Footer from '../Footer';
+import ScrollUp from '../ScrollUp';
 
 const corporateImage = require('../../images/services-corporate-image.png');
 
@@ -40,6 +41,7 @@ class Corporate extends React.Component<CorporateProps, any> {
                         </ul>
                         <Footer />
                     </div>
+                <ScrollUp />
             </section>
         )
     }

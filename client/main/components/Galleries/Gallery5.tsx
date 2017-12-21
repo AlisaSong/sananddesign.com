@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Header';
 import Footer from '../Footer';
+import ScrollUp from '../ScrollUp';
 
 const galleryImage50 = require('../../images/gallery-5-0.png');
 const galleryImage51 = require('../../images/gallery-5-1.png');
@@ -46,6 +47,7 @@ class Gallery5 extends React.Component<Gallery5Props, any> {
                     </div>
                 </div>
                 <Footer />
+                <ScrollUp />
             </section >
         )
     }

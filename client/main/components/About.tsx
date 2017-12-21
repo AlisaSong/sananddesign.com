@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import * as React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import ScrollUp from './ScrollUp';
 
 import '../styles/about.css';
 
@@ -56,7 +57,8 @@ class About extends React.Component<AboutProps> {
                         malesuada, neque cursus nonummy litora tristique, aliquam maecenas, tincidunt convallis eleifend dis, ultricies ut nam.
                         </p>
                     <Footer />
-                </div>
+                    </div>
+                <ScrollUp />
             </section>
         )
     }

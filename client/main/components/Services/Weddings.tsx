@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Header';
 import Footer from '../Footer';
+import ScrollUp from '../ScrollUp';
 
 import '../../styles/services.css';
 
@@ -38,6 +39,7 @@ class Weddings extends React.Component<WeddingsProps, any> {
                             </ul>
                             <Footer />
                         </div>
+                    <ScrollUp />
                 </section>
         )
     }

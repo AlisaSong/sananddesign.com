@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import * as React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import ScrollUp from './ScrollUp';
 
 import '../styles/home.css';
 
@@ -33,6 +34,7 @@ class Home extends React.Component<HomeProps> {
                     <img className="small-image" src={imageSmall3} />
                 </div>
                 <Footer />
+            <ScrollUp />
             </section>
         );
     }

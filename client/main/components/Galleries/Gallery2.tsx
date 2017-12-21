@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Header';
 import Footer from '../Footer';
+import ScrollUp from '../ScrollUp';
 
 const galleryImage20 = require('../../images/gallery-2-0.png');
 const galleryImage21 = require('../../images/gallery-2-1.png');
@@ -37,15 +38,14 @@ class Gallery2 extends React.Component<Gallery2Props, any> {
                         <img className="galleries-image" src={galleryImage24} />
                         <img className="galleries-image" src={galleryImage21} />
                         <img className="galleries-image" src={galleryImage22} />
-
                     </div>
                     <div className="galleries-column">
                         <img className="galleries-image" src={galleryImage25} />
                         <img className="galleries-image" src={galleryImage20} />
-
                     </div>
                 </div>
                 <Footer />
+                <ScrollUp />
             </section >
         )
     }

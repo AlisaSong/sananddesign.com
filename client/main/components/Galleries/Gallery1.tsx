@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Header';
 import Footer from '../Footer';
+import ScrollUp from '../ScrollUp';
 
 const galleryImage10 = require('../../images/gallery-1-0.png');
 const galleryImage11 = require('../../images/gallery-1-1.png');
@@ -42,7 +43,6 @@ class Gallery1 extends React.Component<Gallery1Props, any> {
                         <img className="galleries-image" src={galleryImage13} />
                         <img className="galleries-image" src={galleryImage14} />
                         <img className="galleries-image" src={galleryImage15} />
-
                     </div>
                     <div className="galleries-column">
                         <img className="galleries-image" src={galleryImage16} />
@@ -53,6 +53,7 @@ class Gallery1 extends React.Component<Gallery1Props, any> {
                     </div>
                 </div>
                 <Footer />
+                <ScrollUp />
             </section >
         )
     }
