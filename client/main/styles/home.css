@@ -13,6 +13,12 @@
     text-align: center;
 }
 
+.home-title {
+    color: #fff;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 54px;
+}
+
 .small-image {
     display: inline-block;
     width: 25%;
@@ -20,7 +26,7 @@
 
 .text-overlay {
     position: absolute;
-    top: 40%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -32,7 +38,20 @@
 }
 
 @media only screen and (max-width: 750px) {
+    .home-title {
+        color: #ffffff;
+        font-family: 'Sorts Mill Goudy', serif;
+        font-size: 18px;
+    }
+
     .small-image {
         width: 50%;
+    }
+
+    .text-overlay {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }

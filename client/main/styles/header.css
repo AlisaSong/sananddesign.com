@@ -26,6 +26,10 @@ header {
     display: none;
 }
 
+.dark-gray-text {
+    color: #939393;
+}
+
 .dropdown-menu {
     background-color: #f9f9f9;
     display: none;
@@ -68,6 +72,7 @@ header {
 }
 
 .menu-title {
+    color: #939393;
     cursor: pointer;
     font-weight: bold;
 }
@@ -84,7 +89,7 @@ header {
 }
 
 .tab a:hover {
-    color: lightgray;
+    color: #d3d3d3;
 }
 
 .tabs,
@@ -104,9 +109,8 @@ header {
 }
 
 .dropdown-menu-options:hover,
-.tab-small a:hover
-{
-    color: gold;
+.tab-small a:hover {
+    color: #3e6cab;
 }
 
 .tabs-small-expanded {
