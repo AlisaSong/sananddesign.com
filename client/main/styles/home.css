@@ -37,11 +37,9 @@
     width: 100%;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1096px) {
     .home-title {
-        color: #ffffff;
-        font-family: 'Sorts Mill Goudy', serif;
-        font-size: 18px;
+        font-size: 44px;
     }
 
     .small-image {
@@ -49,9 +47,32 @@
     }
 
     .text-overlay {
-        position: absolute;
+        top: 20%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .home-title {
+        font-size: 36px;
+    }
+
+    .text-overlay {
+        top: 30%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .home-title {
+        font-size: 22px;
+    }
+
+    .text-overlay {
         top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 463px) {
+    .home-title {
+        font-size: 16px;
     }
 }
