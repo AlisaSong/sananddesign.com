@@ -27,7 +27,8 @@ class Corporate extends React.Component<CorporateProps, any> {
                     <div className="services-wrapper">
                         <img className="services-image" src={corporateImage} />
                         <h2 className="services-title services-text">Corporate Floral Services</h2>
-                        <p className="services-text">
+                        <h2 className="services-subtitle services-text">more information coming soon!</h2>
+                        {/**<p className="services-text">
                             Ultricies morbi consectetuer, ullamcorper rutrum urna a vestibulum neque parturient, ante diam mollis id sociis
                         maecenas pellentesque, vestibulum vel platea aliquam orci. Ante porta dolor sed.
                         </p>
@@ -38,7 +39,7 @@ class Corporate extends React.Component<CorporateProps, any> {
                             <li className="services-menu-item">a vestibulum neque - parturient</li>
                             <li className="services-menu-item">ante diam mollis - id sociis</li>
                             <li className="services-menu-item">maecenas pellentesque - vestibulum</li>
-                        </ul>
+                        </ul>**/}
                         <Footer />
                     </div>
                 <ScrollUp />

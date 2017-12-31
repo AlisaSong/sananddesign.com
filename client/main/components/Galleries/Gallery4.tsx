@@ -32,8 +32,7 @@ class Gallery4 extends React.Component<Gallery4Props, any> {
                 <Header />
                 <img className="galleries-banner-image-1" src={galleryImage45} />
                 <div className="galleries-subtitle">Gallery 4</div>
-                <div className="galleries-description">Ultricies morbi consectetuer, ullamcorper rutrum urna a vestibulum neque parturient, ante diam mollis id sociis
-                        maecenas pellentesque, vestibulum vel platea aliquam orci. Ante porta dolor sed.</div>
+                <div className="galleries-description"></div>
                 <div className="galleries-row">
                     <div className="galleries-column">
                         <img className="galleries-image" src={galleryImage44} />

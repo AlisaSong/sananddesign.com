@@ -27,7 +27,8 @@ class RealEstate extends React.Component<RealEstateProps, any> {
                     <div className="services-wrapper">
                         <img className="services-image" src={realEstateImage} />
                         <h2 className="services-title services-text">Real Estate Staging</h2>
-                        <p className="services-text">
+                        <h2 className="services-subtitle services-text">more information coming soon!</h2>
+                        {/** <p className="services-text">
                             Viverra lacus id. Molestie fringilla sed sodales urna feugiat orci, placerat vivamus lacus tincidunt mi justo, sit diam
                         eu pede mauris. Quis nec aliquam. Sed purus curabitur amet sodales neque, a cursus ornare turpis, risus praesent dis
                         vehicula integer, faucibus neque, in euismod.
@@ -39,7 +40,7 @@ class RealEstate extends React.Component<RealEstateProps, any> {
                             <li className="services-menu-item">a vestibulum neque - parturient</li>
                             <li className="services-menu-item">ante diam mollis - id sociis</li>
                             <li className="services-menu-item">maecenas pellentesque - vestibulum</li>
-                        </ul>
+                        </ul> **/}
                         <Footer />
                     </div>
                     <ScrollUp />

@@ -43,7 +43,7 @@ class Header extends React.Component<HeaderProps, any> {
                 link: '/gallery'
             }, {
                 displayText: 'SERVICES',
-                dropdownMenu: [{
+                /**dropdownMenu: [{
                     displayText: 'weddings',
                     link: '/services/weddings'
                 }, {
@@ -52,7 +52,7 @@ class Header extends React.Component<HeaderProps, any> {
                 }, {
                     displayText: 'corporate',
                     link: '/services/corporate'
-                }],
+                }],**/
                 isExpanded: false,
                 link: '/services/weddings'
             }, {
