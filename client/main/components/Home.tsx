@@ -25,7 +25,7 @@ class Home extends React.Component<HomeProps> {
                 <Header />
                 <div className="banner-wrapper">
                     <img className="banner-image" src={bannerImage} />
-                    <div className="text-overlay home-title text-shadow">S A N & D E S I G N</div>
+                    <div className="text-overlay home-title text-shadow">SAN & DESIGN</div>
                 </div>
                 <div className="trio-images-wrapper">
                     <img className="small-image" src={imageSmall1} />

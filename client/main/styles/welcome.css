@@ -38,3 +38,27 @@
     right: 0;
     top: 0;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .center {
+        justify-content: unset;
+    }
+
+    .welcome-image-wrapper {
+        float: none;
+        height: 100%;
+        width: 100%;
+    }
+
+    .welcome-text-wrapper {
+        bottom: 0;
+        float: none;
+        left: 0;
+        right: 0;
+        top: 70px;
+        position: absolute;
+        width: 100%;
+    }
+}

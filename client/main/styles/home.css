@@ -16,7 +16,8 @@
 .home-title {
     color: #fff;
     font-family: 'Sorts Mill Goudy', serif;
-    font-size: 54px;
+    font-size: 70px;
+    white-space: nowrap;
 }
 
 .small-image {
@@ -39,7 +40,7 @@
 
 @media only screen and (max-width: 1096px) {
     .home-title {
-        font-size: 44px;
+        font-size: 50px;
     }
 
     .small-image {
@@ -53,6 +54,16 @@
 
 @media only screen and (max-width: 900px) {
     .home-title {
+        font-size: 42px;
+    }
+
+    .text-overlay {
+        top: 25%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .home-title {
         font-size: 36px;
     }
 
@@ -61,18 +72,12 @@
     }
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 630px) {
     .home-title {
-        font-size: 22px;
+        font-size: 30px;
     }
 
     .text-overlay {
-        top: 40%;
-    }
-}
-
-@media only screen and (max-width: 463px) {
-    .home-title {
-        font-size: 16px;
+        top: 35%;
     }
 }
