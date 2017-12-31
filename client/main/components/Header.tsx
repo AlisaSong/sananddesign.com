@@ -84,7 +84,7 @@ class Header extends React.Component<HeaderProps, any> {
         return (
             <header>
                 <div className="header-logo">
-                    <img className="logo-transparent" src={logoTransparent} />
+                    <Link to="/home"><img className="logo-transparent" src={logoTransparent} /></Link>
                 </div>
                 <ul className="tabs">
                     {this.state.tabs.map((tab, index) =>

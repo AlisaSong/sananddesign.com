@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = (options) => ({
     entry: options.entry,
@@ -46,6 +47,7 @@ module.exports = (options) => ({
     },
     plugins: options.plugins.concat([
         new webpack.NamedModulesPlugin(),
+        new CopyWebpackPlugin([{ from: './client/static/favicon.ico', to: 'favicon.ico' }])
     ]),
 
     node: {
