@@ -26,35 +26,20 @@ class About extends React.Component<AboutProps> {
                             <img className="about-image-small" src={about3Image} />
                             <img className="about-image-small" src={about4Image} />
                         </p>
-                        <h1 className="about-title">About San & Design</h1>
-                        <p className="about-text-description">
-                            Lorem ipsum dolor sit amet, odio eros, ante sed vehicula vivamus ipsum, suspendisse class quisque ante ut, maecenas nulla.
-                        Justo tellus. Tempor interdum per, lacus tempor phasellus tortor risus. Viverra pede commodo fermentum vestibulum.
-                        </p>
-                        <p className="about-text-description">
-                            Quis ultricies a ut lobortis,elit ad consequat morbi neque eu semper.
-                            Purus in, etiam at aenean est, nulla interdum nulla nullam nec.
-                        </p>
-                        <p className="about-text-description">
-                            Tempus consectetuer interdum lorem malesuada,
-                            metus ut veritatis, gravida ante. Condimentum platea blandit quisque ut, sed nec sit, dui ac class diam rutrum massa feugiat.
-                            Venenatis natoque convallis, quam amet vestibulum, consequat quam vulputate inceptos justo ac quam.
-                        </p>
-                        <p className="about-text-description">
-                            Ultricies morbi consectetuer, ullamcorper rutrum urna a vestibulum neque parturient, ante diam mollis id sociis
-                        maecenas pellentesque, vestibulum vel platea aliquam orci. Ante porta dolor sed. Amet nulla. Nulla eget vel est
-                        venenatis vel, wisi et nonummy, ante ipsum ante cras lectus hendrerit condimentum, eu tellus sit, vel dui. Eu
-                        pellentesque nulla dui nec, rutrum suspendisse dui in, id potenti eleifend eleifend sed nec dui. Porta pharetra nec
-                        malesuada, neque cursus nonummy litora tristique, aliquam maecenas, tincidunt convallis eleifend dis, ultricies ut nam.
-                    </p>
-                        <h1 className="about-title">Jane Kang</h1>
+                        <h1 className="about-title">About Jane</h1>
                         <h2 className="about-title-description">Owner, Head Designer</h2>
                         <p className="about-text-description">
-                            Ultricies morbi consectetuer, ullamcorper rutrum urna a vestibulum neque parturient, ante diam mollis id sociis
-                        maecenas pellentesque, vestibulum vel platea aliquam orci. Ante porta dolor sed. Amet nulla. Nulla eget vel est
-                        venenatis vel, wisi et nonummy, ante ipsum ante cras lectus hendrerit condimentum, eu tellus sit, vel dui. Eu
-                        pellentesque nulla dui nec, rutrum suspendisse dui in, id potenti eleifend eleifend sed nec dui. Porta pharetra nec
-                        malesuada, neque cursus nonummy litora tristique, aliquam maecenas, tincidunt convallis eleifend dis, ultricies ut nam.
+                        Jane's love for floral design blossomed through her strong interest in art, architecture, and medicine.
+                        She studied architecture, classics, and biophysics at the University of Washington, and yearned for a career that allowed her to
+                        help others and be creative. Jane uses flowers as a medium to express oneself. Her reward is found in the joy of a happy client
+                        and when she is able to convey a message through the material she uses from Mother Nature.
+                        </p>
+                        <h1 className="about-title">About San & Design</h1>
+                        <p className="about-text-description">
+                        Jane's fondness to nature was nurtured as she grew up in the dynamic landscapes of the Colorado Rockies, through
+                        the alluring change of seasons in the Korean mountains, and the diverse geographies of Washington. Jane's inspiration
+                        comes from "san," meaning "mountain" in Korean, Japanese, and Chinese. Thus the name, San & Design, where the floral
+                        designs are heavily influenced by nature and her asian heritage.
                         </p>
                     <Footer />
                     </div>
