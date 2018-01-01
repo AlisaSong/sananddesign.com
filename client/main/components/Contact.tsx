@@ -22,7 +22,7 @@ class Contact extends React.Component<ContactProps, any> {
         return (
             <section>
                 <Header />
-                <form action="https://formspree.io/alisasong@gmail.com"
+                <form action="https://formspree.io/sananddesign@gmail.com"
                     method="POST">
                     <label>
                         <span>Name*</span>
