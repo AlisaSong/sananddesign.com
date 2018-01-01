@@ -10,7 +10,8 @@ form label {
 }
 
 form label input {
-    width: 95%;
+    padding: 0;
+    width: 98%;
 }
 
 form label span {
@@ -21,7 +22,7 @@ form label span {
 }
 
 textarea {
-    width: 800px;
+    width: 99%;
     height: 150px;
 }
 
@@ -29,9 +30,29 @@ textarea {
     width: 100%;
 }
 
-@media (max-width: 810px) {
+.type-of-event-input {
+    margin: 0;
+    width: 99%;
+}
+
+@media (max-width: 1000px) {
+    form label {
+        display: inline;
+        height: 80px;
+        width: 70%;
+    }
+}
+
+@media (max-width: 900px) {
+    form label input {
+        width: 100%;
+    }
+
     textarea {
-        width: 800px;
         height: 150px;
+    }
+
+    .type-of-event-input {
+        width: 100%;
     }
 }

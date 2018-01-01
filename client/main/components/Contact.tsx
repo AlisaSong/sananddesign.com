@@ -7,8 +7,6 @@ import ScrollUp from './ScrollUp';
 
 import '../styles/contact.css';
 
-const contactImage = require('../images/contact-image.png');
-
 interface ContactProps {
 }
 
@@ -44,7 +42,7 @@ class Contact extends React.Component<ContactProps, any> {
                     </label>
                     <label className="fill">
                         <span>Type of Event</span>
-                        <input type="text" name="event" />
+                        <input className="type-of-event-input" type="text" name="event" />
                     </label>
                     <label className="fill">
                         <span>Message*</span>
