@@ -33,7 +33,7 @@
 .welcome-wrapper {
     bottom: 0;
     left: 0;
-    overflow: auto;
+    overflow: hidden;
     position: absolute;
     right: 0;
     top: 0;
@@ -57,6 +57,14 @@
         float: none;
         left: 0;
         right: 0;
+        text-shadow: 2px 0 0 rgba(255,255,255,.1),
+            -2px 0 0 rgba(255,255,255,.1),
+            0 2px 0 rgba(255,255,255,.1),
+            0 -2px 0 rgba(255,255,255,.1),
+            1px 1px rgba(255,255,255,.1),
+            -1px -1px 0 rgba(255,255,255,.1),
+            1px -1px 0 rgba(255,255,255,.1),
+            -1px 1px 0 rgba(255,255,255,.1);
         top: 70px;
         position: absolute;
         width: 100%;
