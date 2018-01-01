@@ -30,6 +30,9 @@ module.exports = (options) => ({
             loader: 'file-loader',
         }, {
             loader: 'url-loader',
+            options: {
+                limit: 8192
+            },
             test: /\.(png|gif|jpg|cur)$/i
         }, {
             test: /\.html$/,
