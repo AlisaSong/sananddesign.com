@@ -18,7 +18,7 @@ class Header extends React.Component<HeaderProps, any> {
             isMenuExpanded: false,
             tabs: [{
                 displayText: 'HOME',
-                link: '/home'
+                link: '/'
             }, {
                 displayText: 'ABOUT',
                 link: '/about'
@@ -84,7 +84,7 @@ class Header extends React.Component<HeaderProps, any> {
         return (
             <header>
                 <div className="header-logo">
-                    <Link to="/home"><img className="logo-transparent" src={logoTransparent} /></Link>
+                    <Link to="/"><img className="logo-transparent" src={logoTransparent} /></Link>
                 </div>
                 <ul className="tabs">
                     {this.state.tabs.map((tab, index) =>

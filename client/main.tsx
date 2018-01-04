@@ -25,17 +25,14 @@ import Corporate from './main/components/Services/Corporate';
 import RealEstate from './main/components/Services/RealEstate';
 import Weddings from './main/components/Services/Weddings';
 
-
-
 const store: Store<any> = createStore(reducer, {});
 
 ReactDOM.render(
     <Provider store={store}>
-        <Router>
+        <Router basename="/portfolio-sananddesign/">
             <main>
-                <Route component={Home} path={'/home'} />
-                <Route exact={true} component={Welcome} path={'/'} />
-                <Route component={About} path={'/about'} />
+                <Route exact={true } component={Home} path={'/'} />
+                <Route exact={true} component={About} path={'/about'} />
                 <Route exact={true} component={Gallery} path={'/gallery'} />
                 <Route component={Contact} path={'/contact'} />
                 <Route exact={true} component={Gallery1} path={'/galleries/gallery1'} />

@@ -6,7 +6,7 @@ module.exports = (options) => ({
     entry: options.entry,
     output: Object.assign({
         path: path.resolve(process.cwd(), 'build'),
-        publicPath: '/',
+        publicPath: '/portfolio-sananddesign/',
     }, options.output),
     module: {
         loaders: [{
